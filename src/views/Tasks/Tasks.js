@@ -10,10 +10,11 @@ const Tasks = () => {
   return (
 
     <div className="all-task-container">
-      <h1>To do</h1>
+      <h2>To do</h2>
       {alertTodo && alertTodo.map((alert, index) => (
         <TaskCardLong
           alertType={alert.alertType}
+          when={alert.when}
           dateTime={alert.dateTime}
           roomId={alert.roomId}
           bedId={alert.bedId} 
@@ -21,10 +22,11 @@ const Tasks = () => {
           isDone={alert.isDone}
           key={index}/>
       ))}
-      <h1>Done</h1>
+      <h2 className="pd-t-32">Done</h2>
       {alertDone && alertDone.map((alert, index) => (
         <TaskCardLong
           alertType={alert.alertType}
+          when={alert.when}
           dateTime={alert.dateTime}
           roomId={alert.roomId}
           bedId={alert.bedId} 

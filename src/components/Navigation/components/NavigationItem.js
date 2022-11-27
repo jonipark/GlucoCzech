@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   expanded: {
-    backgroundColor: lighten(theme.palette.secondary.main, 0.1),
+    backgroundColor: lighten("#F8F8F8", 0.1),
   },
   selected: {
     backgroundColor: lighten(theme.palette.secondary.main, 0.3),
