@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.pd-l-16 {
+    padding-left: 16px;
+}
